@@ -1,0 +1,413 @@
+body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,input,textarea,p{
+	margin:0px;
+	padding:0px;
+	font-size:13px;
+}/*注释:0 0 0 0 对应 上 右 下 左*/
+
+ul{
+	list-style:none;
+}
+img,a img{
+	border:none;
+}
+a{
+	text-decoration:none;
+}
+a :hover{
+	text-decoration:underline;
+}
+
+/*顶部大小 背景 颜色*/
+#header{
+	height:/*452px*/27%;
+	background:url(top_bg.jpg) repeat-x;
+	color:#ffffff;
+
+}
+
+/*主题内容背景*/
+#main{
+	background:url(main_top_bg.jpg) repeat-x;
+	height:65%;
+}
+#main1{
+	background:url(main1_bottom_bg.jpg) 0px bottom repeat-x;
+	height:65%;
+}
+
+/*底部*/
+#footer{
+	height:/*100px*/6%;
+	background:url(footer_bg.jpg)repeat-x;  
+}
+
+#top{
+	height:100px;/*header总体高度*/
+}
+
+/*top框架大小*/
+#top .logo{
+	width:291px;
+	padding:25px 0 0 20px;
+	float:left;
+}
+
+/*《炫美网站大全》字符大小 颜色 浮动*/
+#top h1 span{
+	font-size:14px;
+	color:#CCCCCC;
+	float:right;
+}
+
+/*搜索栏总体大小 浮动*/
+#top .serach{
+	width:280px;
+	height:50px;
+	float:right;
+	margin:30px 30px 0 20px;
+}
+
+/*搜索框大小 背景颜色 字体颜色 输入字体内边距*/
+#top .serach .text{
+	width:180px;
+	height:15px;
+	background:#161B1F;
+	color:#BCBCBC;
+	border:1px solid #0B0E10;
+	padding:5px;
+}
+
+/*搜索按钮大小*/
+#top .serach .submit{
+	width:80px;
+	height:28px;
+	cursor:pointer;/*母掌鼠标*/
+}
+
+
+#nav{
+	height:50px;/*导航栏总体高度*/
+	
+}
+
+/*首页 提交站点 边距/
+#nav ul{
+	margin:0 0 0px;
+}
+
+/*首页 提交站点 浮动/
+#nav ul li{
+	float:left;
+	margin:0 10px 0;
+}
+
+/*导航链接大小样式/
+#nav ul li a{
+	color:black;
+	font-size:13px;
+	font-weight:bold;
+	display:block;
+	width:103px;
+	height:27px;
+	text-align:center;
+	line-height:27px;
+	margin:10px 0 0 0;
+
+}
+
+/*导航链接背景*/
+#nav ul li a:hover{
+	/*background:url(hover_bg.png);*/
+	color:black;/*导航字体颜色*/
+	font-size:13.5px;
+	font-family:微软雅黑;
+	text-decoration:none;/*导航下划线删除*/
+}
+
+/*导航总体背景*/
+#runplay{
+	height:302px;/*导航总体高度*/
+	background:url(runplay1_bg.jpg);
+}
+
+/*导航背景img.jpg图片宽度 浮动 内边距*/
+#runplay .left{
+	width:300px;
+	float:left;
+	margin:60px 0 0 30px;
+	display:inline;/*在ie6浏览器会翻倍计算边距 解决办法*/
+}
+
+/*导航背景内right样式宽度 浮动 内边距*/
+#runplay .right{
+	width:300px;
+	float:left;
+	margin:60px 0 0 80px;
+	display:inline;/*在ie6浏览器会翻倍计算边距 解决办法*/
+}
+
+/*《炫美网站，尽在美站库》字体大小*/
+#runplay .right dl dt{
+	font-size:24px;	
+	margin:0 0 20px 0;
+}
+
+/*《本网站收集互联网上各种炫美网站》字体大小 颜色*/
+#runplay .right dl dd.txt{
+	font-size:16px;
+	color:#ffffff;
+	margin:0 0 20px 0;
+}
+
+/*《查看更多》背景样式 字体样式 大小 颜色 浮动*/
+#runplay .right dl dd.btn a{
+	background:url(default.png);
+	display:block;
+	width:103px;
+	height:27px;
+	text-align:center;
+	line-height:27px;
+	color:#ffffff;
+	text-decoration:none;
+	font-weight:bold;
+	
+}
+
+/*《查看更多》背景2样式*/
+#runplay .right dl dd.btn a:hover{
+	background:url(d_hover.png);
+}
+	
+	
+}
+
+/*全局大小居中*/
+.auto{
+	width:100%;/*全局宽度*/
+	height:auto;
+	margin:0 auto;/*全局居中*/
+}
+
+/*主体内容框架大小*/
+#wrap{
+	width:100%;
+	height:1100px;
+	margin:0 auto;
+}
+
+/*主体内容左边框架*/
+#wrap #leftBody{
+	width:80%;
+	height:1100px;
+	float:left;
+}
+
+/*主体内容右边框架*/
+#wrap #rightBody{
+	width:19%;
+	height:1100px;
+	float:right;
+}
+
+/*主体内容左边样式*/
+#wrap #leftBody .leftDiv1 h2{
+	color:#000000;
+	font-size:24px;
+	font-weight:normal;
+	margin:25px 0 20px 30px;
+}
+#wrap #leftBody .leftDiv1 p{
+	color:#555555;/*《视频html课程中的第一个项目实战课》字符颜色*/
+	padding:0 0 0 30px;
+}
+#wrap #leftBody .leftDiv1 p a{
+	color:#0074c5;/*《私房库》字符颜色*/
+}
+/*images_04图片样式大小 内边距*/
+#wrap #leftBody .leftDiv2 h2{
+	color:#000000;
+	font-size:24px;
+	font-weight:normal;
+	margin:25px 0 0 30px;
+}
+/*images_04图片边框大小 颜色*/
+#wrap #leftBody .leftDiv2 ul li{
+	width:/*300px*/auto;
+	height:200px;
+	background:#F1F2EA;
+	border:1px solid #D5D7CA;
+	padding:30px;
+	float:left;
+	margin:0 30px 30px 30px;
+}
+/*images_04图片框架内字体大小 颜色*/
+#wrap #leftBody .leftDiv2 ul li p {
+	font-size:16px;
+	color:#000000;
+	margin-top:10px;
+	font-weight:bold;
+}
+/*leftBody3里查看更多按钮*/
+#wrap #leftBody .leftDiv3{
+	clear:both;
+	padding:30px;
+}
+/*查看更多按钮样式1*/
+#wrap #leftBody .leftDiv3 a{
+	background:url(default.png);
+	display:block;
+	width:103px;
+	height:27px;
+	text-align:center;
+	line-height:27px;
+	color:#ffffff;
+	text-decoration:none;
+	font-weight:bold;
+}
+#wrap #leftBody .leftDiv3 a:hover{
+	background:url(d_hover.png);/*查看更多按钮样式2*/
+}
+
+/*主体内容右边框架*/
+#rightBody .rightDiv1 h2{
+	color:#000000;
+	font-size:24px;
+	font-weight:normal;
+	margin:25px 0 0 0;
+}
+#rightBody .rightDiv1 ul li{
+	border-bottom:1px dashed #CCCCCC;/*主体内容右框架内的虚线*/
+	height:80px;
+	padding:20px 0 0 0;/*主体内容右框架边距*/
+}
+
+/*主体内容右边框架《随便写点什么》字符颜色 大小*/
+#rightBody .rightDiv1 ul li h3 a{
+	color:#0074c5;
+	font-weight:normal;
+	text-decoration:underline;/*《随便写点什么》链接下增加下划线*/
+}
+
+#rightBody .rightDiv1 ul li h3 a:hover{
+	color:#009900;	      /*随便写点什么》链接字符颜色样式2*/
+}
+#rightBody .rightDiv1 ul li p{
+	color:#555555;        /*p文本颜色*/
+	margin:5px 0 0 0;     /*p文本边距*/
+}
+/*主体内容右框架下图片样式 边距*/
+#rightBody .rightDiv2 dl{
+	height:64px;
+	margin:40px 0 0 0;             /*图片样式边距*/
+}
+#rightBody .rightDiv2 dl dt{       /*《随便写点》边距*/
+	padding:10px 0 4px 0;
+}
+#rightBody .rightDiv2 dl dt a{     /*图片样式下字符大小 颜色*/
+	font-size:24px;
+	color:#333333;
+	font-weight:bold;
+}
+#rightBody .rightDiv2 dl dd{
+	font-size:15px;
+	color:#333333;
+	font-weight:bold;
+}
+#rightBody .rightDiv2 dl.dl1{
+	background:url(twitter.png) 200px center no-repeat;
+}
+#rightBody .rightDiv2 dl.dl2{
+	background:url(rss.png) 200px center no-repeat;
+}
+/*底部文本样式*/
+#footer p{
+	text-align:center;/*底部文本居中*/
+	color:#ffffff;
+	line-height:220%;
+}
+#footer p.p1{
+	padding-top:20px;
+}
+#footer p a{
+	color:#ffffff;
+	text-decoration:underline;
+	margin:0 25px 0 0;
+}
+#footer p a.last{
+	margin:0;
+}
+#footer p a:hover{
+	color:#009900;
+}
+
+
+/*新导航栏样式*/
+.Nav {
+    float: left;
+    padding: 12px 20px 0 0
+}
+
+.Nav li {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 0 0 20px
+}
+
+.Nav a {
+    display: block;
+    color: #000;
+    font-size: 13px;
+    letter-spacing: 0.2em;
+    text-align: center
+}
+
+.Nav a:hover .Nav__line {
+    width: 100%
+}
+
+.Nav span {
+    display: block;
+    text-align: left
+}
+
+.Nav__line {
+    display: inline-block;
+    vertical-align: top;
+    height: 1px;
+    width: 0;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #999;
+    -webkit-transition: width .2s linear;
+    transition: width .2s linear
+}
+#Menu {
+ overflow:hidden;
+}
+#Menu ul {
+ margin:0;
+ padding:0;
+ list-style:none;
+}
+#Menu li {
+ height:25px;
+ overflow:hidden;
+}
+#Menu a {
+ overflow:hidden;
+}
+#Menu span {
+ display:block;
+ margin-top:-22px;
+}
+#Menu a:hover {
+ padding-top:22px;
+}
+#Menu{
+	margin:0;
+	FONT-FAMILY:微软雅黑;
+    line-height: 1.8;
+}
+a :hover{
+	text-decoration:none;
+}

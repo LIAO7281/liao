@@ -1,0 +1,112 @@
+body
+{
+	font-size:20px
+	
+	
+}
+
+
+#Container{
+	width:1440px;
+	height:650px;
+	background-color:#eaeae0;
+	
+}
+
+
+#Header{
+	width:1440px;
+	background:#b9b9c1;
+	
+}
+
+
+#PageBody{
+	width:1440px;
+
+
+	
+	
+}
+
+
+#MainBody{
+	width:900px;
+	float:left;
+	height:650px;
+	background:#b9b9c1;
+	
+}
+
+
+#SideBar{
+	width:540px;
+	height:650px;
+	float:left;
+	background:#818182;
+	
+}
+
+
+#Footer{
+	width:1440px;
+	background:#ced4da;
+	
+}
+
+
+#Nav
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	
+}
+
+#Nav li {
+    float: left;
+}
+
+#Nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	
+}
+
+#Nav li a:hover {
+    background-color: #111;
+}
+#Nav li a.Active{
+	color:#ced4da;
+	background-color:#818182;
+	font-weight:bolder;
+}
+	
+
+
+
+#Login ul
+{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	float:right;
+}
+#Login li
+{
+display:inline;
+margin-left:5px;
+margin-right:10px;
+position:relative;
+right:10px;
+font-size:18px;
+
+}
+
+
+
